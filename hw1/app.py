@@ -32,7 +32,7 @@ def main():
         response = get_data(day, auth_header)
         if response.status_code == 503:
             auth_header = authorize()
-            get_data(day, auth_header)
+            response = get_data(day, auth_header)
         data = response.json()
 
         dirname = f"data/out-of-stock-{day}"
