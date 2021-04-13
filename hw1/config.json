@@ -1,9 +1,10 @@
-
 {
     "base_url": "https://robot-dreams-de-api.herokuapp.com",
     "data_url": "/out_of_stock",
     "auth_url": "/auth",
-    "auth_credentials": { "username": "rd_dreams",
-                          "password": "djT6LasE"},
+    "auth_credentials": {
+        "username": "rd_dreams",
+        "password": "djT6LasE"
+    },
     "days_to_load": 5
 }

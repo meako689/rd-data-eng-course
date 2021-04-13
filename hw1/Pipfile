@@ -5,9 +5,12 @@ name = "pypi"
 
 [packages]
 requests = "*"
-ipdb = "*"
 
 [dev-packages]
+pylint = "*"
+autopep8 = "*"
+ipdb = "*"
+
 
 [requires]
 python_version = "3.8"
